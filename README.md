@@ -6,9 +6,7 @@ This project focuses on detecting and classifying ground movements using seismic
 
 The model classifies seismic activity into three categories:
 
--🚗 Car Movement
--🚶 Human Activity
--🟢 No Movement
+- Car Movement,  Human Activity and  No Movement
 
 **🎯 Objectives**
 - Capture seismic signals using geo-phones
@@ -18,32 +16,32 @@ The model classifies seismic activity into three categories:
 - Achieve accurate and efficient ground movement detection
 
 **🛠️ Tech Stack**
-. Python
-. TensorFlow / Keras
-. NumPy & Pandas
-. Matplotlib
-. Obspy (for seismic data processing)
+- Python
+- TensorFlow / Keras
+- NumPy & Pandas
+- Matplotlib
+- Obspy (for seismic data processing)
 
 **📂 Project Workflow**
 **1️⃣ Data Collection**
-. Geo-phones are placed in the ground to capture vibrations
-. Signals are transmitted to the Data Acquisition System (DAS)
-. Data includes:
-. Human walking activity
-. Vehicle movement
-. No movement scenarios
+- Geo-phones are placed in the ground to capture vibrations
+- Signals are transmitted to the Data Acquisition System (DAS)
+- Data includes:
+- Human walking activity
+- Vehicle movement
+- No movement scenarios
 
 **2️⃣ Data Preprocessing**
-. Noise filtering
-. Signal correction
-. Conversion into time-series format
-. Transformation into spectrograms
+- Noise filtering
+- Signal correction
+- Conversion into time-series format
+- Transformation into spectrograms
 
 **3️⃣ Model Building (CNN)**
-. Convolutional layers for feature extraction
-. Pooling layers for dimensionality reduction
-. Fully connected layers for classification
-. Softmax activation for multi-class output
+- Convolutional layers for feature extraction
+- Pooling layers for dimensionality reduction
+- Fully connected layers for classification
+- Softmax activation for multi-class output
 
 **4️⃣ Model Training**
 . Trained for 13 epochs
@@ -52,11 +50,11 @@ The model classifies seismic activity into three categories:
 
 
 **5️⃣ Results**
-✅ Model Accuracy: 85.5%
-Successfully classifies:
-. Car
-. Human (Run/Walk)
-. No Movement
+- ✅ Model Accuracy: 85.5%
+- Successfully classifies:
+   - Car
+   - Human (Run/Walk)
+   - No Movement
 
 
 **📊 Sample Dataset**
@@ -69,15 +67,15 @@ Images are given below:
 
 **📈 Output Examples**
 
-. Seismogram plots
-. Accuracy & Loss graphs
-. Classification predictions
+- Seismogram plots
+- Accuracy & Loss graphs
+- Classification predictions
 
 
 **⚠️ Challenges**
-. Noisy seismic data
-. Feature extraction complexity
-. Model generalization
+- Noisy seismic data
+- Feature extraction complexity
+- Model generalization
 
 **📄 Project Report**
 [Project_Report.pdf](https://github.com/user-attachments/files/26490190/Project_Report.pdf)
