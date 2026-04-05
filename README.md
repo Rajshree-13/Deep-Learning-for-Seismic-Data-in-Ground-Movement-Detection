@@ -23,6 +23,7 @@ The model classifies seismic activity into three categories:
 - Obspy (for seismic data processing)
 
 **📂 Project Workflow**
+
 **1️⃣ Data Collection**
 - Geo-phones are placed in the ground to capture vibrations
 - Signals are transmitted to the Data Acquisition System (DAS)
