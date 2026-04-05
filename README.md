@@ -60,7 +60,9 @@ Successfully classifies:
 
 
 **📊 Sample Dataset**
+
 Images are given below:
+
 ![car (36)](https://github.com/user-attachments/assets/e6dd9dbb-d243-4b62-b8fc-aade5c2baf20)
 ![nm (6)](https://github.com/user-attachments/assets/8b81a97d-e29b-443d-87ba-8782d2c1c652)
 ![run (6)](https://github.com/user-attachments/assets/8f9bfdee-4f1e-4b23-942c-22fac2930e0d)
@@ -70,6 +72,7 @@ Images are given below:
 . Seismogram plots
 . Accuracy & Loss graphs
 . Classification predictions
+
 
 **⚠️ Challenges**
 . Noisy seismic data
