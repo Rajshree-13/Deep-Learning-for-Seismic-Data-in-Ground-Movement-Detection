@@ -6,16 +6,16 @@ This project focuses on detecting and classifying ground movements using seismic
 
 The model classifies seismic activity into three categories:
 
-🚗 Car Movement
-🚶 Human Activity
-🟢 No Movement
+-🚗 Car Movement
+-🚶 Human Activity
+-🟢 No Movement
 
 **🎯 Objectives**
-. Capture seismic signals using geo-phones
-. Convert analog signals into digital data using DAS
-. Transform signals into spectrograms
-. Train a CNN model for classification
-. Achieve accurate and efficient ground movement detection
+- Capture seismic signals using geo-phones
+- Convert analog signals into digital data using DAS
+- Transform signals into spectrograms
+- Train a CNN model for classification
+- Achieve accurate and efficient ground movement detection
 
 **🛠️ Tech Stack**
 . Python
